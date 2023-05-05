@@ -1,0 +1,16 @@
+class Result1:
+    def __init__(self, bangla, math, english):
+        self.bangla = bangla
+        self.math = math
+        self.english = english
+
+    def total(self):
+        return self.bangla + self.math + self.english
+    def gor(self):
+        gor1= self.bangla + self.math + self.english
+        gor2=gor1/3
+        return (int(gor2))
+
+result_obj= Result1(80,89,67)
+print(result_obj.total())
+print(result_obj.gor())
